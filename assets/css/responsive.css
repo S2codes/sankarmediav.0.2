@@ -1,0 +1,103 @@
+/* responsive design  */
+@media screen and (max-width: 800px)
+{
+/* components  */
+.nav-contact{
+    display: none;
+}
+.main_header{
+    display: flex;
+    flex-direction: column;
+}
+.contactHead{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactImgSlider{
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.enquiry_form{
+    width: 100%;
+}
+
+.contactBtn{
+    margin: 2.5rem auto;
+}
+.heading{
+    text-align: center;
+}
+.para{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* footer band  */
+.projectContainer h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.projectContainer p{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 2rem auto;
+}
+.projectCtaBtn{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+.footer_title{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.copyrights{
+    font-size: 1.2rem;
+}
+
+
+
+/* service  */
+
+.serviceHead{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.serviceImgSlider{
+    width: 90%;
+    height: 35rem;
+    object-fit: contain;
+}
+.serviceItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.serviceItem-reverse{
+    flex-direction: column-reverse;
+}
+.serviceThumbnail{
+    width: 100%;
+}
+.serviceDetails{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+}
