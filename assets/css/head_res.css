@@ -1,5 +1,12 @@
 @media screen and (max-width: 800px)
 {
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+
 /* components  */
 .nav-contact{
     display: none;
