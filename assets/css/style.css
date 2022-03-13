@@ -16,6 +16,7 @@
  
     html{
         font-size: 62.5%;
+        overflow-x: hidden;
     }
 
     body{
@@ -172,6 +173,7 @@
         }
     }
     /* About Imgae slider  */
+    
 
     .AboutSlider{
         width: 100%;
@@ -200,6 +202,9 @@
     }
 
     /* contact img loadout  */
+
+  
+
     .contactImgSlider{
         width: 90%;
         height: 100%;
@@ -476,6 +481,8 @@
         width: 50%;
         height: auto;
         object-fit: contain;
+        animation: float 5s ease-out  infinite  ;
+
     }
     .aboutDetails{
         margin-top: 10rem;
@@ -929,7 +936,12 @@
 .up_heading{
     color: var(--primary-color);
     font-size: 2rem;
-    
+}
+.uphead-right{
+    text-align: right;
+    color: #fff;
+    /* font-weight: 600; */
+    margin: 0;
 }
 .main_para{
     font-size: 1.7rem;
@@ -983,7 +995,7 @@
     animation: float2 6s ease-in-out  infinite  ;
 }
 .icon_youtube{
-    width: 2.8rem;
+    width: 3.8rem;
     top: 7%;
     left: 85%;
     z-index: 100;
@@ -1011,7 +1023,8 @@
     animation: float 7s ease-in  infinite  ;
 }
 .icon_messenger{
-    top: -2%;
+    width: 2.2rem;
+    top: -5%;
     left: 50%;
     z-index: 100;
     animation: float 3s ease-in  infinite  ;
@@ -1059,7 +1072,15 @@
 }
 
 
+.about_hero_img{
+    height: 80%;
+}
 
 
-
-
+.contact_hero_img{
+    height: 60%;
+}
+.contact_hero_img img{
+    width: 30rem;
+    object-fit: cover;
+}
