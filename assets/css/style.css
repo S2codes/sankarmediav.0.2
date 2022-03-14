@@ -1042,6 +1042,45 @@
     animation: float2 3 ease-in  infinite  ;
 }
 
+/* service  */
+/* service head img  */
+.icon_g1{
+    width: 3rem;
+    bottom: 40%;
+    left: 45%;
+    animation: float2 3s ease-in  infinite  ;
+}
+.icon_g2{
+    width: 4rem;
+    bottom: 40%;
+    left: 55%;
+    animation: float 4s ease  infinite  ;
+}
+.icon_g3{
+    width: 3.2rem;
+    bottom: 40%;
+    left: 67%;
+    animation: float2 4s ease-in  infinite  ;
+}
+.icon_g4{
+    width: 3.7rem;
+    bottom: 40%;
+    left: 77%;
+    animation: float2 3.5s ease-out  infinite  ;
+}
+.icon_bar{
+    width: 12rem;
+    top: 7%;
+    left: 57%;
+    animation: float2 4s ease-in-out  infinite  ;
+}
+.icon_r{
+    width: 3.5rem;
+    top: 12%;
+    left: 15%;
+    animation: float 3s ease infinite  ;
+}
+
 
 @keyframes float {
     0%{
@@ -1084,3 +1123,43 @@
     width: 30rem;
     object-fit: cover;
 }
+
+/* our experties  */
+.expertiesPara{
+    color: #fff;
+    text-align: center;
+    width: 65%;
+    margin: 1rem auto;
+}
+.expertiescCard{
+    padding: 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 2rem;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 4px white; */
+}
+.expertiesCardIcon{
+    /* border: 2px solid white; */
+    border-radius: 5%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--primary-color); */
+}
+.expertiesCardIcon i{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.expertiesTitle{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 0.7rem;
+
+}
+
+
+

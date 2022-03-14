@@ -200,6 +200,40 @@ body{
     font-size: 1.5rem;
 }
 
+/* sevice head img  */
+
+.icon_g1{
+    width: 1rem;
+    bottom: 40%;
+    left: 45%;
+}
+.icon_g2{
+    width: 1.4rem;
+    bottom: 40%;
+    left: 55%;
+}
+.icon_g3{
+    width: 1rem;
+    bottom: 40%;
+    left: 67%;
+}
+.icon_g4{
+    width: 1.5rem;
+    bottom: 40%;
+    left: 77%;
+}
+.icon_bar{
+    width: 3.5rem;
+    top: 0;
+    left: 57%;
+}
+.icon_r{
+    width: 1.2rem;
+    top: 3%;
+    left: 15%;
+    z-index: -1;
+}
+
 
 
 
