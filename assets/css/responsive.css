@@ -95,7 +95,7 @@ body{
 }
 
 .enquiry_form{
-    width: 100%;
+    width: 80%;
 }
 
 .contactBtn{
@@ -234,6 +234,16 @@ body{
     z-index: -1;
 }
 
+/* contact  */
+.contact_hero_img img{
+    width: 15rem;
+}
+.contact_heading{
+    text-align: center;
+}
+.main_contact_header{
+    align-items:center;
+}
 
 
 

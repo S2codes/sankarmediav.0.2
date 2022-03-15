@@ -757,7 +757,20 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items:flex-end;
+    }
+    .contact_heading{
+        font-size: 2rem;
+        color: #fff;
+        text-transform: capitalize;
+        margin: 0;
+        
+    }
+    .contact_sub_heading{
+        color: var(--primary-color);
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: 600;
     }
    
 
